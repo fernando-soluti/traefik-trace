@@ -1,6 +1,6 @@
 # plugins-local/traceidparent/.traefik.yml
 displayName: "TraceID Header Middleware"
 type: middleware
-import: "traceidparent"
+import: "github.com/fernando-soluti/traefik-trace"
 summary: "Injects a timestamp-based X-Trace-Id header into each request"
 testData: {}
